@@ -4,11 +4,11 @@
 
 # Лабораторная 1
 
-Предложение: Изготовить табуретку.
+Предложение: Рисует портрет.
 
-![pic](https://github.com/GorlanovaAV/gorlanovaAV.github.io/blob/master/Lab%201/6%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BE%D0%B2.png?raw=true)
+![pic](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba1/Screenshot_2.png?raw=true)
 
-Предложение: Столяр Изготавливает Табуретку по Заказу из Дерева и гвоздей с помощью Пилы и молотка.
+Предложение:  Художник Рисует Портрет по Заказу на Холсте с помощью красок и кисти.
 
 ## Class diagram
 
