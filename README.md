@@ -1,4 +1,4 @@
-# -viktorpozdeev-.github.io
+
 # Отчет а лабораторных работах
 # [ИДБ-15-05](https://github.com/stankin/design-2018/wiki/list-idb-15-05) Горланова А.В.
 
