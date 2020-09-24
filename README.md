@@ -1,6 +1,6 @@
 
 # Отчет а лабораторных работах
-# [ИДБ-15-05](https://github.com/stankin/design-2018/wiki/list-idb-15-05) Горланова А.В.
+# [ИДБ-17-07](https://github.com/stankin/design-2018/wiki/list-idb-15-05) Поздеев В.А
 
 # Лабораторная 1
 
