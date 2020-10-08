@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+BackgrroundColor White
+ArrowColor Black
+BorderColor Black
+}
+class "Художник" as P {
+Кисть, Краски
+Нарисовать(Холст,Заказ):Портрет
+}
+hide circle
+@enduml
