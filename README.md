@@ -13,6 +13,7 @@
 ## Class diagram
 
 ![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba1/Screenshot_3.png?raw=true)
+[Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba1/uml.txt_1.txt)
 
 ## Usecase diagram
 
