@@ -32,13 +32,13 @@
 
 ### DFD
 
-Блок "Контроль качества":
 ![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_3.png)
 [Файл .rsf](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2.1rsf.rsf)
 
 ### Диаграмма прецедентов
 
 ![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_4.png)
+
 [Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/Код.txt)
 
 
