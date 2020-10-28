@@ -42,3 +42,18 @@
 [Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/Код.txt)
 
 
+# Лабораторная 3
+
+## Диаграмма последовательности
+![none](https://github.com/IrinaKaykova/kaikovaaIV.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA%201.PNG)
+
+[Код](https://github.com/IrinaKaykova/kaikovaaIV.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/%D0%9A%D0%BE%D0%B4%201.txt)
+
+Администратор отправляет заказ в виде требований покупателя помощнику пекаря, а тот подтверждает получение заказа.
+
+## ER-диаграмма
+![none](https://github.com/IrinaKaykova/kaikovaaIV.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA%202.PNG)
+
+[Код](https://github.com/IrinaKaykova/kaikovaaIV.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/%D0%9A%D0%BE%D0%B4%202.txt)
+
+Заказ является записью Базы данных, которая относится к Информационным потокам, и состоит из: Требований, Отзыва покупателя и Хлеба.
