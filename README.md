@@ -26,34 +26,37 @@
 
 ![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_1.png)
 
+Кондитер получает на вход ингредиенты и, используя печь и рецепт, готовит торт, который получаем на выходе.
 ### PDC
 
 ![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_2.png)
 
+По запросам клиентов определяются требования к торту. Исходя из требований и используя рецепт, кондитер готовит ингредиенты и проводит оценку работы. После оценки работы, либо начинаем сначала, либо на выходе получаем торт.
 ### DFD
 
 ![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_3.png)
 [Файл .rsf](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2.1rsf.rsf)
 
+Кондитер получает запросы от клиентов (база данных видов изделий) и, используя рецепт (база данных рецептов), обрабатывает данные, из которых далее формируются требования.
 ### Диаграмма прецедентов
 
 ![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_4.png)
 
 [Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/Код.txt)
-
+Кондитер получает заказ, проводит контроль и изготавливает торт.
 
 # Лабораторная 3
 
 ## Диаграмма последовательности
-![none](https://github.com/IrinaKaykova/kaikovaaIV.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA%201.PNG)
+![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba3/1.png)
 
-[Код](https://github.com/IrinaKaykova/kaikovaaIV.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/%D0%9A%D0%BE%D0%B4%201.txt)
+[Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba3/Код1.txt)
 
-Администратор отправляет заказ в виде требований покупателя помощнику пекаря, а тот подтверждает получение заказа.
+Администратор отправляет заказ в виде требований покупателя помощнику кондитера, а тот подтверждает получение заказа.
 
 ## ER-диаграмма
-![none](https://github.com/IrinaKaykova/kaikovaaIV.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA%202.PNG)
+![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba3/2.png)
 
-[Код](https://github.com/IrinaKaykova/kaikovaaIV.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/%D0%9A%D0%BE%D0%B4%202.txt)
+[Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba3/код2.txt)
 
-Заказ является записью Базы данных, которая относится к Информационным потокам, и состоит из: Требований, Отзыва покупателя и Хлеба.
+Заказ является записью Базы данных, которая относится к Информационным потокам, и состоит из: Требований, Отзыва покупателя и Торта.
