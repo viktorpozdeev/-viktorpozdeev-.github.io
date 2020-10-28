@@ -1,0 +1,12 @@
+@startuml
+actor "Администратор" as owner
+boundary "Приложение" as app
+entity "Данные" as data
+actor "Помощник кондитера" as trainee
+owner -> app : Запрос
+app -> data : Заказ 
+data -> app : Ответ
+app -> trainee : Требования
+trainee -> app : ОК
+app -> owner : Заказ принят
+@enduml
