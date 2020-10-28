@@ -43,6 +43,7 @@
 ![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_4.png)
 
 [Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/Код.txt)
+
 Кондитер получает заказ, проводит контроль и изготавливает торт.
 
 # Лабораторная 3
