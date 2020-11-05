@@ -1,63 +1,13 @@
+# Студент группы ![ИДБ-17-07](https://github.com/stankin/design-part-1/wiki/list-idb-17-07) Поздеев В.А.
 
-# Отчет а лабораторных работах
-# [ИДБ-17-07](https://github.com/stankin/design-part-1/wiki/list-idb-17-07) Поздеев В.А
+## Отчёт по лабораторным работам [1 - 3](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/wiki/laba1-3)
 
-# Лабораторная 1
+## Отчёт по лабораторным работам [4 - 6]()
 
-Предложение: Рисует портрет.
+## Домашнее задание по семинарам [1](https://github.com/stankin/design-part-1/wiki/sem1#%D0%91%D0%BE%D1%80%D0%BE%D0%B7%D0%B4%D0%B8%D0%BD-%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%A4%D0%B5%D0%B4%D0%BE%D1%82%D0%BE%D0%B2-%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9-%D0%A0%D1%83%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE-%D0%90%D0%BD%D1%82%D0%BE%D0%BD) и [2](https://github.com/stankin/design-part-1/wiki/sem2#%D0%91%D0%BE%D1%80%D0%BE%D0%B7%D0%B4%D0%B8%D0%BD-%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%A0%D1%83%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE-%D0%90%D0%BD%D1%82%D0%BE%D0%BD-%D0%A4%D0%B5%D0%B4%D0%BE%D1%82%D0%BE%D0%B2-%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9)
 
-![pic](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba1/Screenshot_2.png?raw=true)
+## Домашнее задание по семинарам [3 - 4]()
 
-Предложение:  Художник Рисует Портрет по Заказу на Холсте с помощью красок и кисти.
+## Рефераты: [разработанный]() и [проверенный]()
 
-## Class diagram
 
-![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba1/Screenshot_3.png?raw=true)
-
-[Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba1/uml.txt_1.txt)
-
-## Usecase diagram
-
-![](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba1/Screenshot_1.png)
-
-## Лабораторная 2
-
-### IDEF0
-
-![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_1.png)
-
-Кондитер получает на вход ингредиенты и, используя печь и рецепт, готовит торт, который получаем на выходе.
-### PDC
-
-![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_2.png)
-
-По запросам клиентов определяются требования к торту. Исходя из требований и используя рецепт, кондитер готовит ингредиенты и проводит оценку работы. После оценки работы, либо начинаем сначала, либо на выходе получаем торт.
-### DFD
-
-![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_3.png)
-[Файл .rsf](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2.1rsf.rsf)
-
-Кондитер получает запросы от клиентов (база данных видов изделий) и, используя рецепт (база данных рецептов), обрабатывает данные, из которых далее формируются требования.
-### Диаграмма прецедентов
-
-![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/лаба2_4.png)
-
-[Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba2/Код.txt)
-
-Кондитер получает заказ, проводит контроль и изготавливает торт.
-
-# Лабораторная 3
-
-## Диаграмма последовательности
-![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba3/1.png)
-
-[Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba3/Код1.txt)
-
-Администратор отправляет заказ в виде требований покупателя помощнику кондитера, а тот подтверждает получение заказа.
-
-## ER-диаграмма
-![none](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba3/2.png)
-
-[Код](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/blob/master/laba3/код2.txt)
-
-Заказ является записью Базы данных, которая относится к Информационным потокам, и состоит из: Требований, Отзыва покупателя и Торта.
