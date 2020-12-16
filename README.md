@@ -8,6 +8,6 @@
 
 ## Домашнее задание по семинарам [3 - 4](https://github.com/viktorpozdeev/-viktorpozdeev-.github.io/wiki/семинар-3-4)
 
-## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam10-2) и [проверенный](https://github.com/stankin/design-part-1/wiki/exam06-5)
+## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam10-2) и [проверенный](https://github.com/stankin/design-part-1/wiki/exam06-6)
 
 
