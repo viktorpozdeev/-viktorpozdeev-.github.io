@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+
+actor "Студент"
+actor "Планировщик"
+
+usecase case1 as "Управляет"
+
+usecase case5 as "Выбор способа оповещения"
+
+usecase case3 as "Просмотр списка задач"
+
+usecase case4 as "Определение периода отслеживания "
+
+usecase case2 as "Функционирует"
+
+usecase case6 as "Оповещение о задаче"
+
+
+
+Студент --> case1
+case1 ..> case5
+case1 ..> case3
+case1 ..> case4
+
+Планировщик --> case2
+case2 ..> case6
+@enduml

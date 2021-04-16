@@ -1,0 +1,56 @@
+@startuml
+skinparam monochrome true
+
+actor Студент as user
+participant "Веб-приложение" as web
+participant "Сервер" as serv
+database "База данных" as base
+
+user -> web : Добавление задачи в планировщик
+activate web
+web -> serv : Информация о задаче
+activate serv
+serv -> base : Добавление задачи
+activate base
+base -> serv : Успешное добавление
+serv-> web : Добавленная Задача
+deactivate base
+deactivate serv
+web -> user : Отображение информации о задаче
+deactivate web
+
+
+
+user -> web : Выбор способа оповещения
+activate web
+web -> serv : Данные о выборе оповещения
+activate serv
+serv -> base : Запрос информации по способам оповещения
+activate base
+base -> serv : Данные по запрошенным способам оповещения
+serv -> base : Выбор способа оповещения
+base -> serv : Выбранное оповещение
+deactivate base
+serv -> serv : Обработка запроса
+serv -> web : Передача результата
+deactivate serv
+web -> user : Отображение результата
+deactivate web
+
+
+
+
+user -> web : Запрос списка задач за определенный период времени
+activate web
+web -> serv : Данные о периоде времени
+activate serv
+serv -> base : Запрос выборки списка задач
+activate base
+base -> serv : Список задач 
+serv -> serv : Сортировка списка по периоду времени
+serv-> web : Отсортированный список задач
+deactivate base
+deactivate serv
+web -> user : Отображение информации 
+deactivate web
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+hide circle
+hide methods
+
+class Subject {
+   id : number
+   name: string
+   nameLecturer:string
+}
+class Todos {
+   id : number
+   text: string
+   subjectName: string
+   checked:bool
+   date:date
+   time: string
+   color: string
+
+}
+class Lecturer {
+   id : number
+   name: string
+   mail : string
+   date_of_receipt : date
+   audience : string
+}
+
+Subject --* Todos
+Subject --* Lecturer
+@enduml
