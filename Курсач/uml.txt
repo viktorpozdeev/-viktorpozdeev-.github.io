@@ -1,0 +1,16 @@
+@startuml
+node "Сервер БД" {
+  DB - [DBMS]
+}
+
+node "Web-сервер" {
+  App - [Application]
+  [App] --> DB
+}
+
+node "ПК пользователя"{
+
+  User - [Web browser]
+  [User] --> App
+}
+@enduml
