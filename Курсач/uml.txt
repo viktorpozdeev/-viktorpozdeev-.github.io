@@ -1,16 +1,100 @@
 @startuml
-node "Сервер БД" {
-  DB - [DBMS]
+skinparam monochrome true
+hide circle
+hide methods
+
+() HTTP
+() TCPIP
+
+node "Web Client" {
+
+component browser [
+"executable"
+
+Web Browser
+]
+
+browser - HTTP
+
 }
 
-node "Web-сервер" {
-  App - [Application]
-  [App] --> DB
+node "Web Server" {
+
+package "Design" {
+
+component style [
+"file"
+
+style.css
+]
+
+component main [
+"file"
+
+main.scss
+]
+
 }
 
-node "ПК пользователя"{
 
-  User - [Web browser]
-  [User] --> App
+package "Script" {
+
+component min [
+"file"
+
+
+component libs [
+"file"
+
+libs.min.js
+]
+
+
+component main [
+"file"
+
+main.js
+]
+
 }
+
+component index [
+"document"
+
+index.jsx
+]
+
+component template [
+"document"
+
+template.jsx
+]
+
+
+index ..> "Script"
+index ..> "Design"
+index ..> template
+}
+
+node "Firebase" {
+component db [
+"database"
+
+Todos
+]
+
+component table [
+"tables"
+
+...
+]
+
+db ..> table
+
+}
+
+
+"Web Server" - TCPIP
+"Firebase" - TCPIP
+HTTP - "Web Server"
 @enduml
